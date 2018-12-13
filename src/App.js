@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Particles from "react-particles-js";
 import Clarifai from "clarifai";
 import "./App.css";
-import Logo from "./components/Logo/Logo";
+// import Logo from "./components/Logo/Logo";
 import Navigation from "./components/navigation/navigation";
 import SignIn from "./components/SignIn/SignIn";
 import ImageLinkForm from "./components/ImageLinkForm/ImageLinkForm";
@@ -74,7 +74,7 @@ class App extends Component {
         <Particles className="particles" params={particlesOptions} />
         <Navigation />
         <SignIn />
-        <Logo /> not working figure out later
+        {/* <Logo /> not working figure out later */}
         <Rank />
         <ImageLinkForm
           onInputChange={this.onInputChange}
