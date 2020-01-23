@@ -5,3 +5,5 @@ This app detects faces in pictures. It has a fully functional front and back end
 The api comes from Clarifai.
 
 This is the Front End of the app.
+
+The backend deployment on heroku is currently down.
